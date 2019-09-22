@@ -24,7 +24,7 @@
   "_spec": "startbootstrap-resume",
   "_where": "C:\\xampp\\htdocs\\my-web-portfolio",
   "author": {
-    "name": "Start Bootstrap"
+    "name": "czar panjaitan"
   },
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
@@ -40,6 +40,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.10.2",
     "bootstrap": "4.3.1",
+    "gh-pages": "^2.1.1",
     "jquery": "3.4.1",
     "jquery.easing": "^1.4.1"
   },
@@ -58,7 +59,7 @@
     "gulp-uglify": "3.0.2",
     "merge-stream": "2.0.0"
   },
-  "homepage": "https://startbootstrap.com/template-overviews/resume",
+  "homepage": "https://github.com/czarzein/my-web-portfolio",
   "keywords": [
     "css",
     "sass",
@@ -74,7 +75,8 @@
     "url": "git+https://github.com/BlackrockDigital/startbootstrap-resume.git"
   },
   "scripts": {
-    "start": "gulp watch"
+    "start": "gulp watch",
+    "deploy": "gh-pages -d"
   },
   "title": "Resume",
   "version": "5.0.8"
